@@ -1,4 +1,4 @@
-local Speed = 10
+local Speed = 12.5
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -41,9 +41,9 @@ task.spawn(function()
 	local BaseUrl = "rbxassetid://"
 
 	local DamageValues = {
-		BaseDamage = 3.5,
-		SlashDamage = 4,
-		LungeDamage = 5
+		BaseDamage = 0.5,
+		SlashDamage = 0.6,
+		LungeDamage = 0.8
 	}
 
 	local Animations = {
