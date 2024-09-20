@@ -41,9 +41,9 @@ task.spawn(function()
 	local BaseUrl = "rbxassetid://"
 
 	local DamageValues = {
-		BaseDamage = 0.5,
-		SlashDamage = 0.6,
-		LungeDamage = 0.8
+		BaseDamage = 0.05,
+		SlashDamage = 0.06,
+		LungeDamage = 0.08
 	}
 
 	local Animations = {
